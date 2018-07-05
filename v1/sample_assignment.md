@@ -1,6 +1,6 @@
 # Sample Assignment
 
-Here is a sample assignment for testing Sharif Judge. Add this assignment by clicking on `Add` in `Assignments` page.
+Here is a sample assignment for testing Online Judge. Add this assignment by clicking on `Add` in `Assignments` page.
 
 ## Problems
 
@@ -21,10 +21,6 @@ Read integer n, and then read n integers. Print sum of the two largest numbers b
 | Sample Input                       | Sample Output |
 | ---------------------------------- | ------------- |
 | 7<br/>162 173 159 164 181 158 175   | 356           |
-
-### Problem 3 (Upload!):
-
-Upload a `c` or `zip` file! (This problem is "Upload Only", and will not be judged)
 
 ## Tests
 
@@ -76,16 +72,12 @@ The tree of this file is:
     │   │   └── output10.txt
     │   ├── desc.md
     │   └── Problem2.pdf
-    ├── p3
-    │   └── desc.md
     └── SampleAssignment.pdf
 
 
 Problem 1 uses "Tester" method for checking output. So it has a file `tester.cpp` (the Tester Script)
 
 Problem 2 uses "Output Comparison" method for checking output. So it has two folders `in` and `out` containing test cases.
-
-Problem 3 is an "Upload-Only" problem.
 
 ## Sample Solutions
 

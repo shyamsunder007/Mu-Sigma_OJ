@@ -1,9 +1,9 @@
 # Users
 
-In Sharif Judge, users are grouped into 4 groups: Admins, Head Instructors, Instructors, and Students.
+In Online Judge, users are grouped into 4 groups: Admins, Head Instructors, Instructors, and Students.
 
 ## User roles
-There are four user roles in Sharif Judge.
+There are four user roles in Online Judge.
 
 | User Role       | User Level |
 | --------------- | ---------- |
@@ -47,13 +47,13 @@ An example:
 
     # This is a comment!
     # This is another comment!
-    instructor instructor@sharifjudge.ir 123456 head_instructor
-    instructor2 instructor2@sharifjudge.ir random[7] instructor
-    student1 st1@sharifjudge.ir random[6] student
-    student2 st2@sharifjudge.ir random[6] student
-    student3 st3@sharifjudge.ir random[6] student
-    student4 st4@sharifjudge.ir random[6] student
-    student5 st5@sharifjudge.ir random[6] student
-    student6 st6@sharifjudge.ir random[6] student
-    student7 st7@sharifjudge.ir random[6] student
+    instructor instructor@Onlinejudge.ir 123456 head_instructor
+    instructor2 instructor2@Onlinejudge.ir random[7] instructor
+    student1 st1@Onlinejudge.ir random[6] student
+    student2 st2@Onlinejudge.ir random[6] student
+    student3 st3@Onlinejudge.ir random[6] student
+    student4 st4@Onlinejudge.ir random[6] student
+    student5 st5@Onlinejudge.ir random[6] student
+    student6 st6@Onlinejudge.ir random[6] student
+    student7 st7@Onlinejudge.ir random[6] student
 

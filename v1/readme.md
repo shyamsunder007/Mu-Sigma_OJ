@@ -1,4 +1,4 @@
-# Sharif Judge v1.4 Documentation
+# Online Judge v1.4 Documentation
 
 Table of contents:
 
