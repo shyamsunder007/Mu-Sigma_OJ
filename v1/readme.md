@@ -1,4 +1,4 @@
-# Online Judge v1.4 Documentation
+# Online Judge v1 Documentation
 
 Table of contents:
 
