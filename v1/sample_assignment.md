@@ -6,21 +6,13 @@ Here is a sample assignment for testing Online Judge. Add this assignment by cli
 
 This assignment has three problems:
 
-### Problem 1 (Sum):
+### Problem 1 (Max):
   
-Read integer n, and then read n integers. Print sum of these n numbers.
+Read integer n, and then read n integers. Print sum of the two largest numbers between these n numbers.
 
 | Sample Input      | Sample Output |
 | ----------------- | ------------- |
-| 5<br/>54 78 0 4 9  | 145           |
-
-### Problem 2 (Max):
-
-Read integer n, and then read n integers. Print sum of the two largest numbers between these n numbers.
-
-| Sample Input                       | Sample Output |
-| ---------------------------------- | ------------- |
-| 7<br/>162 173 159 164 181 158 175   | 356           |
+| 7<br/>162 173 159 164 181 158 175  | 356           |
 
 ## Tests
 
@@ -43,22 +35,6 @@ The tree of this file is:
     │   │   ├── input8.txt
     │   │   ├── input9.txt
     │   │   └── input10.txt
-    │   ├── out
-    │   │   └── output1.txt
-    │   ├── tester.cpp
-    │   └── desc.md
-    ├── p2
-    │   ├── in
-    │   │   ├── input1.txt
-    │   │   ├── input2.txt
-    │   │   ├── input3.txt
-    │   │   ├── input4.txt
-    │   │   ├── input5.txt
-    │   │   ├── input6.txt
-    │   │   ├── input7.txt
-    │   │   ├── input8.txt
-    │   │   ├── input9.txt
-    │   │   └── input10.txt
     │   ├── out
     │   │   ├── output1.txt
     │   │   ├── output2.txt
@@ -69,58 +45,16 @@ The tree of this file is:
     │   │   ├── output7.txt
     │   │   ├── output8.txt
     │   │   ├── output9.txt
-    │   │   └── output10.txt
-    │   ├── desc.md
-    │   └── Problem2.pdf
+    │   │   └── output10.txt   
+    │   └── Problem1.pdf
     └── SampleAssignment.pdf
 
 
 Problem 1 uses "Tester" method for checking output. So it has a file `tester.cpp` (the Tester Script)
 
-Problem 2 uses "Output Comparison" method for checking output. So it has two folders `in` and `out` containing test cases.
-
 ## Sample Solutions
 
-### Sample solutions for problem 1:
-
-#### C
-
-```c
-#include<stdio.h>
-int main(){
-	int n;
-	scanf("%d",&n);
-	int i;
-	int sum =0 ;
-	int k;
-	for(i=0 ; i<n ; i++){
-		scanf("%d",&k);
-		sum+=k;
-	}
-	printf("%d\n",sum);
-	return 0;
-}
-```
-
-#### C++
-
-```cpp
-#include <iostream>
-using namespace std;
-int main(){
-	int n, sum=0;
-	cin >> n;
-	for (int i=0 ; i<n ; i++){
-		int a;
-		cin >> a;
-		sum += a;
-	}
-	cout << sum << endl;
-	return 0;
-}
-```
-
-### Sample Solution for problem 2:
+### Sample Solution for problem 1:
 
 #### C
 
