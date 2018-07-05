@@ -21,11 +21,11 @@ echo shell_exec("php -v");
 Installation
 ------------
 
-* 1. Download the latest release from [download page](https://github.com/mjnaderi/Online-Judge/releases) and unpack downloaded file in your public html directory.
+* 1. Download the latest release from [download page](https://github.com/AMANVerma28/Mu-Sigma_OJ) and unpack downloaded file in your public html directory.
 * 2. **[Optional]** Move folders `system` and `application` somewhere outside your public directory, and enter their full path in `index.php` file.
 ```php
-$system_path = '/home/mohammad/secret/system';
-$application_folder = '/home/mohammad/secret/application';
+$system_path = '/home/musigma/online_judge/system';
+$application_folder = '/home/musigma/online_judge/application';
 ```
 * 3. Create a MySql or PostgreSql database for Online Judge. Do not install any database connection package for C/C++, Java or Python.
 * 4. Set database connection settings in file `application/config/database.php`. You can use a prefix for your table names.
@@ -36,7 +36,7 @@ $application_folder = '/home/mohammad/secret/application';
 'username' => `,           // database username
 'password' => `,           // database password
 'database' => `,           // database name
-'dbprefix' => 'shj_',       // table prefix
+'dbprefix' => 'oj_',       // table prefix
 /**********************************************/
 ```
 * 5. Make `application/cache/Twig` writable by php.

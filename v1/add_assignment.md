@@ -56,36 +56,6 @@ Scoreboard
 
 You can enable or disable scoreboard for the assignment using this option.
 
-Java Exceptions
----------------
-
-You can enable or disable showing java exceptions to students. Changing this option does not affect previously judged codes.
-
-The exception name will be shown only if `tester/java_exceptions_list` contains that name.
-
-If you enable this feature, something like this will be displayed to students when an exception is thrown:
-
-    Test 1
-    ACCEPT
-    Test 2
-    Runtime Error (java.lang.ArrayIndexOutOfBoundsException)
-    Test 3
-    Runtime Error (java.lang.ArrayIndexOutOfBoundsException)
-    Test 4
-    ACCEPT
-    Test 5
-    ACCEPT
-    Test 6
-    ACCEPT
-    Test 7
-    ACCEPT
-    Test 8
-    Runtime Error (java.lang.ArrayIndexOutOfBoundsException)
-    Test 9
-    Runtime Error (java.lang.StackOverflowError)
-    Test 10
-    Runtime Error (java.lang.ArrayIndexOutOfBoundsException)
-
 Coefficient Rule
 ----------------
 
@@ -157,7 +127,7 @@ Available languages are: `C`, `C++`, `Java`, `Python 2`, `Python 3`, `Zip`, `PDF
 
 Note: You can use `Zip` or `PDF` only if you have enabled `Upload Only` option.
 
-e.g. `C, C++   , Zip` or `Python 2,Python 3` or `Java ,C`
+e.g. `Python 2,Python 3`
 
 Diff Command
 ------------

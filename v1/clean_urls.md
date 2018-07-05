@@ -2,13 +2,13 @@
 
 By default, `index.php` is a part of all urls in Online Judge. e.g.
 
-    http://example.mjnaderi.ir/index.php/dashboard
-    http://example.mjnaderi.ir/index.php/users/add
+    http://example.online_judge.ir/index.php/dashboard
+    http://example.online_judge.ir/index.php/users/add
 
 You can remove `index.php` and have pretty and nice urls if your system supports rewrite rules:
 
-    http://example.mjnaderi.ir/dashboard
-    http://example.mjnaderi.ir/users/add
+    http://example.online_judge.ir/dashboard
+    http://example.online_judge.ir/users/add
 
 ## Enabling clean urls
 
