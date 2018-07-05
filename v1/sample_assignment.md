@@ -49,9 +49,6 @@ The tree of this file is:
     │   └── Problem1.pdf
     └── SampleAssignment.pdf
 
-
-Problem 1 uses "Tester" method for checking output. So it has a file `tester.cpp` (the Tester Script)
-
 ## Sample Solutions
 
 ### Sample Solution for problem 1:
